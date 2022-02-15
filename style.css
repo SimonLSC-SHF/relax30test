@@ -46,8 +46,8 @@ a, a:hover, a:active, a:visited {
   position: absolute;
   top: 0;
   left: 0;
-  right: 1px;
-  height: 1px;
+  right: 0px;
+  height: 0px;
   text-align: center;
 }
 
@@ -67,11 +67,11 @@ body.fullscreen-enabled.mobile #titleBar {
 
 /* If there are multiple scenes the title bar must make space for the scene list toggle */
 body.multiple-scenes #titleBar {
-  left: 1px;
+  left: 0px;
 }
 
 body.multiple-scenes.mobile #titleBar {
-  left: 1px;
+  left: 0px;
 }
 
 #titleBar .sceneName {
